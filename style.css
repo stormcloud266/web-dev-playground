@@ -48,3 +48,14 @@ h5,
 h6 {
 	font-family: 'Fira Mono', 'Courier New', Courier, monospace;
 }
+
+a {
+	color: #44bfce;
+}
+
+footer {
+	background-color: #0d151b;
+	color: #e2e4e5;
+	text-align: center;
+	padding: 12px;
+}
