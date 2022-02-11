@@ -48,3 +48,11 @@ h5,
 h6 {
 	font-family: 'Fira Mono', 'Courier New', Courier, monospace;
 }
+
+.wrapper{
+	width: 100%;
+max-width: 1200;
+padding :0px 18px;
+margin: auto;
+align-items: center;
+}
