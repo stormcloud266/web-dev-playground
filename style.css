@@ -1,8 +1,8 @@
 @font-face {
-	font-family: FontName;
-	src: url('/assets/fonts/fira-mono-v12-latin-700.woff2') format('woff2'), 
-	  url('/assets/fonts/fira-mono-v12-latin-700.woff') format('woff');
-  }
+	font-family: Fira Mono;
+	src: url('/assets/fonts/fira-mono-v12-latin-700.woff2') format('woff2'),
+		url('/assets/fonts/fira-mono-v12-latin-700.woff') format('woff');
+}
 
 * {
 	margin: 0;
