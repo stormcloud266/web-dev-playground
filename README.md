@@ -20,7 +20,7 @@ This repo is a place to practice web design, development, and git. Please feel f
 1. Make sure you have the lates copy of main. [Click for more info](https://stackoverflow.com/a/7244456/6267585)
 
    ```
-   git remote add upstream https://github.com/stormcloud266/web-dev-playground.git
+   git remote add upstream https://github.com/stormcloud266/web-dev-playground
    git fetch upstream
    git checkout main
    git rebase upstream/main
