@@ -41,3 +41,5 @@ This repo is a place to practice web design, development, and git. Please feel f
 1. Visit [original repo](https://github.com/stormcloud266/web-dev-playground.git)
 
 2. Make a pull request (your `new-feature` branch into original repo `main`). [Click for more info](https://www.youtube.com/watch?v=nT8KGYVurIU)
+
+3. If your PR closes an existing issue, please use the 'closes' keyword with the issue number (eg, closes #56)
