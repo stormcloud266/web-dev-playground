@@ -16,7 +16,7 @@ body {
 }
 
 .hero {
-	background-image: url('/assets/images/hero-banner.jpg');
+	background-image: url('../web-dev-playground/assets/images/hero-banner.jpg');
 	background-size: cover;
 	background-position: center;
 	min-height: 100vh;
@@ -24,6 +24,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 
 .hero h1 {
