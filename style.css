@@ -51,6 +51,17 @@ h6 {
 
 a {
 	color: #44bfce;
+	transition: all 0.2s linear 0s;
+}
+
+a:hover{
+	color: #04090c;
+	background-color: #44bfce;
+}
+
+a:focus-visible{
+	color: #04090c;
+	background-color: #44bfce;
 }
 
 footer {
@@ -59,3 +70,4 @@ footer {
 	text-align: center;
 	padding: 12px;
 }
+
