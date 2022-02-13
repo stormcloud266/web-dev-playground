@@ -54,15 +54,12 @@ a {
 	transition: all 0.2s linear 0s;
 }
 
-a:hover{
-	color: #04090c;
-	background-color: #44bfce;
-}
-
+a:hover,
 a:focus-visible{
 	color: #04090c;
 	background-color: #44bfce;
 }
+
 
 footer {
 	background-color: #0d151b;
