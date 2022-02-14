@@ -6,6 +6,7 @@
     --color-background-accent: #0d151b;
 }
 
+
 @font-face {
     font-family: Fira Mono;
     src: url('/assets/fonts/fira-mono-v12-latin-700.woff2') format('woff2'),
@@ -83,3 +84,39 @@
     text-align: center;
     padding: 12px;
   }
+
+
+/* tablet */
+@media screen and (max-width: 550px) {
+  .hero h1 {
+   
+    font-size: 60px;
+  }
+  .hero p {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+  p {
+    font-size: 17px;
+  }
+}
+/* phone */
+@media screen and (max-width: 450px) {
+  .hero h1 {
+   
+    font-size: 50px;
+  }
+  .hero p {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  p {
+    font-size: 15px;
+  }
+}
