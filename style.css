@@ -75,3 +75,40 @@ footer {
   text-align: center;
   padding: 12px;
 }
+
+/* tablet */
+@media screen and (max-width: 550px) {
+  .hero h1 {
+    color: #fff;
+    font-size: 60px;
+  }
+  .hero p {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+  p {
+    font-size: 17px;
+    padding: 0 10px;
+  }
+}
+/* phone */
+@media screen and (max-width: 450px) {
+  .hero h1 {
+    color: #fff;
+    font-size: 50px;
+  }
+  .hero p {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  p {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+}
