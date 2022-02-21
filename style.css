@@ -19,12 +19,36 @@
     box-sizing: border-box;
   }
   
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+ 
+.fade-in {
+  animation-name: fadeInAnimation;
+  animation-duration: 1.2s;
+  animation-direction: normal;
+  animation-timing-function:ease-out;
+  }
+  
   body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     line-height: 1.6;
     background-color: var(--color-background);
     color: var(--color-text-secondary);
+  }
+
+  .flex {
+    display:flex;
+  }
+
+  .section {
+    padding: 160px 0;
   }
   
   .hero {
