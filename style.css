@@ -28,13 +28,21 @@
     }
   }
  
-.fade-in {
-  animation-name: fadeInAnimation;
-  animation-duration: 1.2s;
-  animation-direction: normal;
-  animation-timing-function:ease-out;
-  }
+  .fade-in {
+    animation-name: fadeInAnimation;
+    animation-duration: 1.2s;
+    animation-direction: normal;
+    animation-timing-function:ease-out;
+    }
   
+  .fade-in-delayed {
+    animation-delay: .4s ;
+    animation-name: fadeInAnimation;
+    animation-duration: 1.2s;
+    animation-direction: normal;
+    animation-timing-function:ease-out;
+  }
+
   body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -48,7 +56,8 @@
   }
 
   .section {
-    padding: 160px 0;
+    padding-top: 160px;
+    padding-bottom: 160px;
   }
   
   .hero {
